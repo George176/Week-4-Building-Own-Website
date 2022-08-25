@@ -1,0 +1,594 @@
+* {
+
+    outline: #000000 1px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0C121C;
+    letter-spacing: 0.2px;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    font: 10px Arial, sans-serif;
+}
+
+.my-account {
+    flex: 1;
+    text-align: right;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+.buy {
+    background-color: green;
+    float: right;
+}
+
+.grid-item p,
+h2,
+h3 {
+    text-align: center;
+
+}
+
+button {
+    font-size: 1rem;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: #000000;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.grid-item {
+    margin: 0.1rem;
+}
+
+.grid-item img,
+.white-discovery-in-mountains {
+    width: 100%;
+}
+
+.account {
+    text-align: right;
+    padding-right: 1rem;
+
+}
+
+.icon {
+    padding-left: 0.8rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    width: 6rem;
+    padding-right: 1.2rem;
+}
+
+.headings {
+    padding-right: 2rem;
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    font-weight: bold;
+    font-size: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.headings:hover {
+    color: black;
+}
+
+.build-your-own-heading {
+    padding-left: 2.5rem;
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    font-weight: bold;
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1 {
+    color: #414141;
+}
+
+.price {
+    padding-right: 2.5rem;
+    font-weight: bold;
+    color: rgb(41, 41, 41);
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    position: relative;
+}
+
+.bodystyles {
+    position: fixed;
+    width: 20%;
+    margin-left: 5%;
+    overflow-y: scroll;
+    height: 80%;
+
+}
+
+.models-available {
+    display: grid;
+    margin-left: 30%;
+    grid-template-columns: 50% 50%;
+    margin-right: 5%;
+
+}
+
+.models-list {
+    text-align: left;
+    font-size: 1rem;
+    color: #0c121c;
+    transition: color .3s;
+    margin-bottom: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.description-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.description {
+    text-align: left;
+    color: rgba(74, 79, 84, .8);
+    font-weight: normal;
+    font-family: avenir, arial, helvetica, sans-serif;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.extra-margin {
+    margin: 5%;
+}
+
+
+.bodystyles-text {
+    font-family: avenir, arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+input[type="checkbox"] {
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+
+
+}
+
+.checkbox-pair {
+    display: flex;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    font-family: avenir, arial, helvetica, sans-serif
+}
+
+label {
+    padding-left: 4%;
+    align-self: center;
+    word-break: break-word;
+}
+
+.bold-label {
+    font-weight: bold;
+}
+
+.reset-button {
+    background: rgba(173, 216, 230, 0.616);
+    border: none;
+    color: rgb(2, 87, 35);
+    font-size: 0.8rem;
+    padding: 1rem;
+    border-radius: 0;
+    letter-spacing: 0.2rem;
+    margin: 1rem 1rem 3rem 1rem;
+}
+
+.reset-button:hover {
+    border: 1px solid black;
+}
+
+.build-from {
+    margin-top: 0.8rem;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.explore-button {
+    background: transparent;
+    color: #0c121c;
+    letter-spacing: .3em;
+    font-family: "avenir", "arial", "helvetica", sans-serif;
+    font-size: 10px;
+    transition: color 500ms;
+    margin-top: 0;
+}
+
+.build-button {
+    color: white;
+    border-radius: 0;
+    font-family: avenir, arial, helvetica, sans-serif;
+    padding: 0rem 1.5rem;
+    font-size: 0.8rem;
+    letter-spacing: .3em;
+}
+
+.from {
+    font-size: 0.7rem;
+}
+
+.build-price {
+    font-size: 1.3rem;
+}
+
+ul {
+    font-family: avenir, arial, helvetica, sans-serif;
+    list-style-type: "-   ";
+    padding-left: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+h2.from-price {
+    margin: 0;
+}
+
+/*my-account CSS*/
+.my-account-button:hover {
+    background-color: red;
+    border-radius: 0;
+
+}
+
+.my-account-button {
+    padding: 25px 20px;
+    background-color: transparent;
+    color: black;
+    border: transparent;
+    margin: 0;
+}
+
+.my-account-icon {
+    display: flex;
+    align-items: center;
+}
+
+.my-account-my-account {
+    align-self: center;
+}
+
+.my-account-img {
+    width: 200px;
+    padding: 0;
+
+}
+
+.my-account-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.account-head {
+    color: #0C121C;
+    float: left;
+    height: 50px;
+    padding: 20px;
+    margin: 0px;
+    line-height: 50px;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.account-head:hover {
+    background-color: #e4e8e9;
+}
+
+.right-account-head {
+    float: right;
+    height: 50px;
+    padding: 20px;
+    margin-right: 50px;
+    padding-left: 10px;
+    line-height: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    font-size: 11px;
+    color: #0C121C;
+}
+
+#my-account-icon {
+    float: right;
+    background-image: url(https://buy.landrover.co.uk/skin/frontend/rockar/default2/spritesheets/sprites.png);
+    background-position: -213px -151px;
+    width: 16px;
+    height: 20px;
+    margin-top: 35px;
+    margin-right: 10px;
+}
+
+.sign-up {
+    clear: both;
+    margin-left: auto;
+    padding-top: 4%;
+    margin-right: auto;
+    width: 400px;
+
+}
+
+.sign-head {
+    text-align: left;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+    letter-spacing: 1.2px;
+    color: #0c121c;
+}
+
+.field-label-div {
+    margin-bottom: 10px;
+}
+
+.field-label {
+    padding: 0;
+    font-weight: 600;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 0.2px;
+    line-height: 19px;
+    color: #0C121C;
+}
+
+.field-input {
+    height: 42px;
+    margin: 0 0 30px 0;
+    border: 1px solid rgba(12, 18, 28, .12);
+    box-sizing: border-box;
+    width: 100%;
+    letter-spacing: 0.08em;
+    padding: 0.5em 1.2em;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.field-input:focus {
+    outline: transparent;
+    border: 1px solid rgba(12, 18, 28, .12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px 4px rgba(74, 144, 226, .75);
+}
+
+.paragraph {
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 97%;
+    padding-right: 3%;
+    overflow-y: scroll;
+    font-size: 11px;
+    color: #686868;
+}
+
+.minimum-8-characters {
+    font-weight: 400;
+    font-size: 11px;
+    color: #686868;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.terms-checkbox {
+    margin: 0;
+}
+
+.terms-container {
+
+    display: flex;
+    width: 100%;
+}
+
+.terms-label {
+    margin: 0 0 0 10px
+}
+
+
+
+.contact-preferences-container {
+    display: grid;
+    grid-template-columns: 38% 62%;
+    width: 100%;
+    padding-top: 17px;
+}
+
+.inside-contact-preferences-container {
+    width: 100%;
+    display: flex;
+    padding: 0 0 10px 0;
+
+}
+
+.register-button {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 45px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    border-radius: 0;
+
+}
+
+.transactions-icon {
+    display: inline-block;
+    background-image: url(https://buy.landrover.co.uk/skin/frontend/rockar/ncos-landrover/spritesheets/sprites.png);
+    background-position: -110px -25px;
+    height: 24px;
+    width: 50px;
+    margin: 0 12px 0 0;
+}
+
+
+
+.transaction-paragraph {
+    display: flex;
+}
+
+.all-transactions-made-through {
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: .2px;
+    line-height: 18px;
+    color: #4a4f54;
+    margin: 0;
+}
+
+.footer {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: calc(100%/3);
+    grid-auto-flow: column;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-icon {
+    background-image: url(https://buy.landrover.co.uk/skin/frontend/rockar/ncos-landrover/spritesheets/sprites.png);
+    background-position: 0 -49px;
+    width: 30px;
+    height: 32px;
+    margin-left: 72px;
+    margin-top: 40px;
+}
+
+.middle-footer-icon {
+    background-position: -49px 0;
+    background-image: url(https://buy.landrover.co.uk/skin/frontend/rockar/ncos-landrover/spritesheets/sprites.png);
+    margin-left: 72px;
+    margin-top: 40px;
+    width: 32px;
+    height: 32px;
+}
+
+.finance-tailored-to-you-paragraph {
+    margin: 0 32px 80px 72px;
+    font-family: "Avenir Next", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #4a4f54;
+}
+
+
+
+.footer-headings {
+    text-align: left;
+    margin-left: 72px;
+}
+
+.pay {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.left-side-price {
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(248, 249, 249);
+
+}
+
+.right-side-card-details {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.mmyy {
+    height: 50px;
+    font-size: 50px;
+    width: 50%;
+}
+
+.title {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.jaguar-icon {
+    padding: 0;
+}
+
+.div-email {
+    text-align: center;
+        padding: 0;
+    margin: 0;
+}
+
+.input-email-field {
+    height: 50px;
+        font-size: 20px;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+.post-code {
+    hemight: 10px;
+    widmth: 150px;
+    font-size: 10px;
+    margin:0;
+    padding:0;
+}
+
+.div-pay-button {
+    width: 100%;
+    text-align: center;
+}
+
+.pay-button {
+    font-size: 50px;
+    width: 40%;
+}
